@@ -42,6 +42,30 @@ Running a block of code on all subviews in a view hierarchy:
 
 ```
 
+Forcing an interface rotation to portrait/landscape:
+
+This uses CGAffineTransform to rotate the UI to the nearest portrait/landscape and sets the status bar
+orientation. 
+
+Sets the status bar to UIInterfaceOrientationPortrait / UIInterfaceOrientationPortraitUpsideDown / UIInterfaceOrientationLandscapeRight / UIInterfaceOrientationLandscapeLeft
+based on a default, but if the device is already being held in the new orientation, will switch to the 
+appropriate one (In other words, the user shouldn't get an upside-down UI)
+
+```objc
+#import "UIViewController+ForcedRotation.h"
+
+- (IBAction)rotateLandscape:(id)sender 
+{
+    [self rotateViewToLandscape];
+}
+
+- (IBAction)rotatePortrait:(id)sender 
+{
+    [self rotateViewToPortrait];
+}
+
+```
+
 Installation
 -----
 
