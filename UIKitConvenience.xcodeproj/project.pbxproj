@@ -15,6 +15,7 @@
 		070ECD311577E375003329E9 /* EGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD301577E375003329E9 /* EGAppDelegate.m */; };
 		070ECD391577E403003329E9 /* UIControl+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD381577E403003329E9 /* UIControl+Convenience.m */; };
 		070ECD401577E41D003329E9 /* UIView+ViewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD3F1577E41D003329E9 /* UIView+ViewRecursion.m */; };
+		070ECD431577E6F4003329E9 /* UIViewController+ForcedRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD421577E6F4003329E9 /* UIViewController+ForcedRotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		070ECD381577E403003329E9 /* UIControl+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Convenience.m"; sourceTree = "<group>"; };
 		070ECD3E1577E41D003329E9 /* UIView+ViewRecursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewRecursion.h"; sourceTree = "<group>"; };
 		070ECD3F1577E41D003329E9 /* UIView+ViewRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewRecursion.m"; sourceTree = "<group>"; };
+		070ECD411577E6F4003329E9 /* UIViewController+ForcedRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ForcedRotation.h"; sourceTree = "<group>"; };
+		070ECD421577E6F4003329E9 /* UIViewController+ForcedRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ForcedRotation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				070ECD2F1577E375003329E9 /* EGAppDelegate.h */,
 				070ECD301577E375003329E9 /* EGAppDelegate.m */,
 				070ECD271577E375003329E9 /* Supporting Files */,
+				070ECD411577E6F4003329E9 /* UIViewController+ForcedRotation.h */,
+				070ECD421577E6F4003329E9 /* UIViewController+ForcedRotation.m */,
 			);
 			path = UIKitConvenience;
 			sourceTree = "<group>";
@@ -167,6 +172,7 @@
 				070ECD311577E375003329E9 /* EGAppDelegate.m in Sources */,
 				070ECD391577E403003329E9 /* UIControl+Convenience.m in Sources */,
 				070ECD401577E41D003329E9 /* UIView+ViewRecursion.m in Sources */,
+				070ECD431577E6F4003329E9 /* UIViewController+ForcedRotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
