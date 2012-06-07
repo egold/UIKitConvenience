@@ -16,6 +16,7 @@
 		070ECD391577E403003329E9 /* UIControl+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD381577E403003329E9 /* UIControl+Convenience.m */; };
 		070ECD401577E41D003329E9 /* UIView+ViewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD3F1577E41D003329E9 /* UIView+ViewRecursion.m */; };
 		070ECD431577E6F4003329E9 /* UIViewController+ForcedRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD421577E6F4003329E9 /* UIViewController+ForcedRotation.m */; };
+		07A7665D15803D9000BD3E6A /* UIPageViewController+EnableToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A7665C15803D9000BD3E6A /* UIPageViewController+EnableToggle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		070ECD3F1577E41D003329E9 /* UIView+ViewRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewRecursion.m"; sourceTree = "<group>"; };
 		070ECD411577E6F4003329E9 /* UIViewController+ForcedRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ForcedRotation.h"; sourceTree = "<group>"; };
 		070ECD421577E6F4003329E9 /* UIViewController+ForcedRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ForcedRotation.m"; sourceTree = "<group>"; };
+		07A7665B15803D9000BD3E6A /* UIPageViewController+EnableToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+EnableToggle.h"; sourceTree = "<group>"; };
+		07A7665C15803D9000BD3E6A /* UIPageViewController+EnableToggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+EnableToggle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				070ECD271577E375003329E9 /* Supporting Files */,
 				070ECD411577E6F4003329E9 /* UIViewController+ForcedRotation.h */,
 				070ECD421577E6F4003329E9 /* UIViewController+ForcedRotation.m */,
+				07A7665B15803D9000BD3E6A /* UIPageViewController+EnableToggle.h */,
+				07A7665C15803D9000BD3E6A /* UIPageViewController+EnableToggle.m */,
 			);
 			path = UIKitConvenience;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				070ECD391577E403003329E9 /* UIControl+Convenience.m in Sources */,
 				070ECD401577E41D003329E9 /* UIView+ViewRecursion.m in Sources */,
 				070ECD431577E6F4003329E9 /* UIViewController+ForcedRotation.m in Sources */,
+				07A7665D15803D9000BD3E6A /* UIPageViewController+EnableToggle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +282,7 @@
 				070ECD361577E375003329E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
