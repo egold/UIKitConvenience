@@ -3,6 +3,30 @@ UIKitConvenience
 
 Some categories to help solve common needs for UIKit components.
 
+Components
+----------
+
+# UIBarButtonItem+ImageItem
+
+Provides a simple one-line factory for making bar button items as image buttons. Patterned after existing constructors of UIKit.
+
+# UIControl+Convenience
+
+Provides a method to remove all action/event pairs associated with a control (like a button).
+
+# UIPageViewController+EnableToggle
+
+Provides methods to enable/disable gesture-based page turning in a UIPageViewController. For instance, if you want to disable page turning while displaying something else on screen temporarily.
+
+# UIViewController+ForcedRotation
+
+Provides methods to force a portrait or landscape orientation for a view controller's view.
+
+# UIView+ViewRecursion
+
+Provides methods to perform an operation (specified as an Objective-C 2.0 block) on all subviews or all superviews of a given view. Also provides a convenience method to
+enable or disable all UIControls in the hierarchy.
+
 Usage
 -----
 
