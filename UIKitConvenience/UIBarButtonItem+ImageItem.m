@@ -15,7 +15,7 @@
     UIButton* button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.bounds = CGRectMake(0, 0, image.size.width, image.size.height);
     [button setImage:image forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(doShowHelp:) forControlEvents:UIControlEventTouchUpInside];
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
 
     UIBarButtonItem* item = [[self alloc] initWithCustomView:button];
     return item;
