@@ -17,6 +17,7 @@
 		070ECD401577E41D003329E9 /* UIView+ViewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD3F1577E41D003329E9 /* UIView+ViewRecursion.m */; };
 		070ECD431577E6F4003329E9 /* UIViewController+ForcedRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 070ECD421577E6F4003329E9 /* UIViewController+ForcedRotation.m */; };
 		0738C4591582A51400BE1A0B /* UIBarButtonItem+ImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0738C4581582A51400BE1A0B /* UIBarButtonItem+ImageItem.m */; };
+		0738C47C1582AE4A00BE1A0B /* UIView+LayoutManipulation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0738C47B1582AE4A00BE1A0B /* UIView+LayoutManipulation.m */; };
 		07A7665D15803D9000BD3E6A /* UIPageViewController+EnableToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A7665C15803D9000BD3E6A /* UIPageViewController+EnableToggle.m */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,8 @@
 		070ECD421577E6F4003329E9 /* UIViewController+ForcedRotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ForcedRotation.m"; sourceTree = "<group>"; };
 		0738C4571582A51400BE1A0B /* UIBarButtonItem+ImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ImageItem.h"; sourceTree = "<group>"; };
 		0738C4581582A51400BE1A0B /* UIBarButtonItem+ImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ImageItem.m"; sourceTree = "<group>"; };
+		0738C47A1582AE4A00BE1A0B /* UIView+LayoutManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutManipulation.h"; sourceTree = "<group>"; };
+		0738C47B1582AE4A00BE1A0B /* UIView+LayoutManipulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutManipulation.m"; sourceTree = "<group>"; };
 		07A7665B15803D9000BD3E6A /* UIPageViewController+EnableToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+EnableToggle.h"; sourceTree = "<group>"; };
 		07A7665C15803D9000BD3E6A /* UIPageViewController+EnableToggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+EnableToggle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +92,8 @@
 			children = (
 				070ECD3E1577E41D003329E9 /* UIView+ViewRecursion.h */,
 				070ECD3F1577E41D003329E9 /* UIView+ViewRecursion.m */,
+				0738C47A1582AE4A00BE1A0B /* UIView+LayoutManipulation.h */,
+				0738C47B1582AE4A00BE1A0B /* UIView+LayoutManipulation.m */,
 				070ECD371577E403003329E9 /* UIControl+Convenience.h */,
 				070ECD381577E403003329E9 /* UIControl+Convenience.m */,
 				070ECD2F1577E375003329E9 /* EGAppDelegate.h */,
@@ -185,6 +190,7 @@
 				070ECD431577E6F4003329E9 /* UIViewController+ForcedRotation.m in Sources */,
 				07A7665D15803D9000BD3E6A /* UIPageViewController+EnableToggle.m in Sources */,
 				0738C4591582A51400BE1A0B /* UIBarButtonItem+ImageItem.m in Sources */,
+				0738C47C1582AE4A00BE1A0B /* UIView+LayoutManipulation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
