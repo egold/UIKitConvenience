@@ -80,6 +80,11 @@
                      animations:^{
                          
                          self.alpha = 0.0;
+                     } completion:^(BOOL finished) {
+                         
+                         if (finished) {
+                             self.hidden = YES;
+                         }
                      }];
 }
 
@@ -99,6 +104,12 @@
 
 -(void)fadeIn
 {
+    if (self.hidden)
+    {
+        self.alpha = 0.0;
+        self.hidden = NO;
+    }
+    
     [UIView animateWithDuration:kUIViewLayoutManipulationAnimationDuration 
                      animations:^{
                          
