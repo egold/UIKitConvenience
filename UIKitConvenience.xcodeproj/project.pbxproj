@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0706056A159A611A00973448 /* UINavigationController+AutomaticallyDismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 07060569159A611A00973448 /* UINavigationController+AutomaticallyDismissKeyboard.m */; };
 		070ECD211577E375003329E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070ECD201577E375003329E9 /* UIKit.framework */; };
 		070ECD231577E375003329E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070ECD221577E375003329E9 /* Foundation.framework */; };
 		070ECD251577E375003329E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070ECD241577E375003329E9 /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07060568159A611A00973448 /* UINavigationController+AutomaticallyDismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AutomaticallyDismissKeyboard.h"; sourceTree = "<group>"; };
+		07060569159A611A00973448 /* UINavigationController+AutomaticallyDismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AutomaticallyDismissKeyboard.m"; sourceTree = "<group>"; };
 		070ECD1C1577E375003329E9 /* UIKitConvenience.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitConvenience.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		070ECD201577E375003329E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		070ECD221577E375003329E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -105,6 +108,8 @@
 				07A7665C15803D9000BD3E6A /* UIPageViewController+EnableToggle.m */,
 				0738C4571582A51400BE1A0B /* UIBarButtonItem+ImageItem.h */,
 				0738C4581582A51400BE1A0B /* UIBarButtonItem+ImageItem.m */,
+				07060568159A611A00973448 /* UINavigationController+AutomaticallyDismissKeyboard.h */,
+				07060569159A611A00973448 /* UINavigationController+AutomaticallyDismissKeyboard.m */,
 			);
 			path = UIKitConvenience;
 			sourceTree = "<group>";
@@ -191,6 +196,7 @@
 				07A7665D15803D9000BD3E6A /* UIPageViewController+EnableToggle.m in Sources */,
 				0738C4591582A51400BE1A0B /* UIBarButtonItem+ImageItem.m in Sources */,
 				0738C47C1582AE4A00BE1A0B /* UIView+LayoutManipulation.m in Sources */,
+				0706056A159A611A00973448 /* UINavigationController+AutomaticallyDismissKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
